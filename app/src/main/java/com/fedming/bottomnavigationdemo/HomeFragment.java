@@ -24,9 +24,9 @@ public class HomeFragment extends Fragment{
         mView = inflater.inflate(R.layout.fragment_home, container, false);
         mRecyclerView = mView.findViewById(R.id.homeRecycler);
         mProductList = new ArrayList<>();
-        mProductList.add(new Product(R.drawable.woman1, "Damn Shoes", "12.39$"));
-        mProductList.add(new Product(R.drawable.woman2, "Damn Shoes", "12.39$"));
-        mProductList.add(new Product(R.drawable.woman3, "Damn Shoes", "12.39$"));
+        mProductList.add(new Product(R.drawable.woman5, "Damn Shoes", "12.39$"));
+        mProductList.add(new Product(R.drawable.woman6, "Damn Shoes", "12.39$"));
+        mProductList.add(new Product(R.drawable.woman8, "Damn Shoes", "12.39$"));
 
         LinearLayoutManager ms = new LinearLayoutManager(getContext());
         ms.setOrientation(LinearLayoutManager.HORIZONTAL);
